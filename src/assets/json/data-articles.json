@@ -1,0 +1,17 @@
+[
+    {
+        "title":"La lúdica",
+        "article": "La lúdica se entiende como una dimensión del desarrollo humano que contribuye al desarrollo psico-social, la adquisición de saberes, la formación de la personalidad y se manifiesta en una amplia gama de actividades donde interactúa el placer, el gozo, la creatividad y el conocimiento. En la actividad lúdica se hace uso del juego como elemento fundamental que propicia gozo y al mismo tiempo contribuye al aprendizaje (Gómez, Molano, Rodríguez, 2015).",
+        "img":"../../../assets/img/articles/ludica.jpg"
+    },
+    {
+        "title":"El juego",
+        "article": "El juego es una actividad inherente al ser humano. Todos aprendimos a relacionarnos en nuestro ámbito familiar, social y cultural través del juego. El juego es una actividad que se utiliza para diversión y el disfrute de los participantes. Es una acción u ocupación libre que se desarrolla dentro de unos límites de tiempo y espacios determinados, según reglas a cumplir, aunque libremente aceptadas. HUIZINGA (1938). La palabra juego procede de dos vocablos en latín “iocum y ludus ludere” que hacen referencia a broma, diversión, chiste, etc.",
+        "img":"../../../assets/img/articles/juego.jpg"
+    },
+    {
+        "title":"La recreación",
+        "article": "La recreación es un proceso de disfrute y juego, de diversión que tiene una influencia, que desarrolla los elementos constitutivos de la motricidad. Recreación, es crear sobre lo ya existente, es innovar, con la capacidad de generar cambios en la actitud de la persona. La palabra recreación se deriva del latín recreativo, y significa restaurar, la recreación es una actividad voluntaria que se realiza en el tiempo libre, ya que si fuera obligatoria, dejaría de ser recreativa. Ejemplos: ir a cine, teatro, paseo, excursión, practicar algún deporte, aeróbicos, etc. WIKIPEDIA.",
+        "img":"../../../assets/img/articles/recreacion.jpg"
+    }
+]

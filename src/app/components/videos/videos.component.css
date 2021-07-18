@@ -1,0 +1,36 @@
+.videoRutina {
+  height: 480px;
+}
+.videotitle {
+  color: red;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+@media(min-width:992px)and (max-width:1199px){
+    .videoRutina{
+        height: 350px;
+    }
+}
+
+@media(min-width:768px)and (max-width:991px){
+    .videoRutina{
+        height: 400px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    .videoRutina{
+        height: 300px;
+    }
+}
+
+@media(min-width:375px) and (max-width:575px){
+    .videoRutina{
+        height: 290px;
+    }
+}
+@media(max-width:374px){
+    .videoRutina{
+        height: 200px;
+    }
+}

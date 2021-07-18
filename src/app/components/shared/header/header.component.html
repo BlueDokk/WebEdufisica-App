@@ -1,0 +1,80 @@
+<header class="jumbotron">
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <h1 class="animate__animated animate__flip">I.E. El Guadual</h1>
+            </a>
+            <button id="btn-menu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item" routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}">
+                        <a id="homeMenu" class="nav-link" title="Inicio" aria-current="page" [routerLink]="['home']">Inicio</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <a id="areaMenu" class="nav-link" title="Plan de área" [routerLink]="['planarea']">Plan
+                            de área</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <a id="guiasMenu" class="nav-link" [routerLink]="['guias']" title="Guías y actividades">Guías y actividades</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <a id="reglaMenu" class="nav-link" [routerLink]="['reglamento']" title="Reglamentos deportivos">Reglamentos deportivos</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                        <a id="videosMenu" class="nav-link" [routerLink]="['videos']" title="Videos y rutinas">Videos y rutinas</a>
+                    </li>
+                </ul>
+            </div>
+            <!--collapse-->
+        </div>
+        <!--container jumbotron-->
+    </nav><!-- Navbar -->
+    <!-- Background image - Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../../../assets/img/slide/slide_0.jpg" class="img_bg img-fluid" alt="background_image">
+            </div>
+            <div class="carousel-item">
+                <img src="../../../../assets/img/slide/slide_1.jpg" class="img_bg img-fluid" alt="background_image">
+            </div>
+            <div class="carousel-item">
+                <img src="../../../../assets/img/slide/slide_2.jpg" class="img_bg img-fluid" alt="background_image">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+        <div class="offset-2 col-8 mask text-center">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h2 class="mb-3">EDUCACIÓN VIRTUAL </h2>
+                    <h1 class="text-animation">
+                        <a href="" class="typewrite" data-period="1500"
+                            data-type='["Educación física", "Recreación", "Deporte"]'>
+                            <span class="wrap"></span>
+                        </a>
+                    </h1>
+                    <h4 class="mb-1">Alvaro Velasquez Soto</h4>
+                    <h5 class="mb-3">Docente</h5>
+                </div>
+            </div>
+        </div>
+    </div><!-- background image -->
+</header>
+

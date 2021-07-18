@@ -1,0 +1,150 @@
+[
+    [
+        {
+            "grado":"601",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/601.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/sexto/sesion2.pdf",
+                             "../../../assets/files/guias/sexto/sesion3.pdf",
+                             "../../../assets/files/guias/sexto/sesion4.pdf",
+                             "../../../assets/files/guias/sexto/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"602",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/602.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/sexto/sesion2.pdf",
+                             "../../../assets/files/guias/sexto/sesion3.pdf",
+                             "../../../assets/files/guias/sexto/sesion4.pdf",
+                             "../../../assets/files/guias/sexto/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"701",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/701.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/septimo/sesion2.pdf",
+                             "../../../assets/files/guias/septimo/sesion3.pdf",
+                             "../../../assets/files/guias/septimo/sesion4.pdf",
+                             "../../../assets/files/guias/septimo/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"702",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/702.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/septimo/sesion2.pdf",
+                             "../../../assets/files/guias/septimo/sesion3.pdf",
+                             "../../../assets/files/guias/septimo/sesion4.pdf",
+                             "../../../assets/files/guias/septimo/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"801",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/801.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/octavo/sesion2.pdf",
+                             "../../../assets/files/guias/octavo/sesion3.pdf",
+                             "../../../assets/files/guias/octavo/sesion4.pdf",
+                             "../../../assets/files/guias/octavo/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"802",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/802.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/octavo/sesion2.pdf",
+                             "../../../assets/files/guias/octavo/sesion3.pdf",
+                             "../../../assets/files/guias/octavo/sesion4.pdf",
+                             "../../../assets/files/guias/octavo/sesion5.pdf"] 
+            }
+        } 
+    ],
+    [
+        {
+            "grado":"901",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/901.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/noveno/sesion2.pdf",
+                             "../../../assets/files/guias/noveno/sesion3.pdf",
+                             "../../../assets/files/guias/noveno/sesion4.pdf",
+                             "../../../assets/files/guias/noveno/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"902",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/902.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/noveno/sesion2.pdf",
+                             "../../../assets/files/guias/noveno/sesion3.pdf",
+                             "../../../assets/files/guias/noveno/sesion4.pdf",
+                             "../../../assets/files/guias/noveno/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"1001",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/1001.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/decimo/sesion2.pdf",
+                             "../../../assets/files/guias/decimo/sesion3.pdf",
+                             "../../../assets/files/guias/decimo/sesion4.pdf",
+                             "../../../assets/files/guias/decimo/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"1002",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/1002.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/decimo/sesion2.pdf",
+                             "../../../assets/files/guias/decimo/sesion3.pdf",
+                             "../../../assets/files/guias/decimo/sesion4.pdf",
+                             "../../../assets/files/guias/decimo/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"1101",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/1101.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/once/sesion2.pdf",
+                             "../../../assets/files/guias/once/sesion3.pdf",
+                             "../../../assets/files/guias/once/sesion4.pdf",
+                             "../../../assets/files/guias/once/sesion5.pdf"] 
+            }
+        },
+        {
+            "grado":"1102",
+            "guias": {
+                "conductaEntrada":"../../../assets/files/guias/others/conducta.pdf",
+                "planMejoramiento":"../../../assets/files/planes_mejoramiento/primer_periodo/1102.pdf",
+                "sesiones": ["../../../assets/files/guias/others/sesion1.pdf",
+                             "../../../assets/files/guias/once/sesion2.pdf",
+                             "../../../assets/files/guias/once/sesion3.pdf",
+                             "../../../assets/files/guias/once/sesion4.pdf",
+                             "../../../assets/files/guias/once/sesion5.pdf"] 
+            }
+        }
+    ]
+]

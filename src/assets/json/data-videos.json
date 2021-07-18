@@ -1,0 +1,102 @@
+[
+    {
+        "sectionTitle": "Ejercicios en casa",
+        "id": "profe",
+        "videos": [
+            {
+                "videoTitle": "Ejercicios en casa 1",
+                "videoURL": "https://www.youtube.com/embed/gV1PVykyeJA"
+            },
+            {
+                "videoTitle": "Ejercicios en casa 2",
+                "videoURL": "https://www.youtube.com/embed/tuwCA9j3XT8"
+            },
+            {
+                "videoTitle": "Ejercicios en casa 3",
+                "videoURL": "https://www.youtube.com/embed/Zku4zJIxvcw"
+            },
+            {
+                "videoTitle": "Ejercicios en casa 4",
+                "videoURL": "https://www.youtube.com/embed/IIN2OGTESMY"
+            }
+        ]
+    },
+    {
+        "sectionTitle": "Historia",
+        "id": "hist",
+        "videos": [
+            {
+                "videoTitle": "Historia del baloncesto",
+                "videoURL": "https://www.youtube.com/embed/6d3smqwR1Vk"
+            },
+            {
+                "videoTitle": "Vida de Kobe Bryant",
+                "videoURL": "https://www.youtube.com/embed/xP4Fvg_0SSM"
+            }
+        ]
+    },
+    {
+        "sectionTitle": "Rutinas",
+        "id": "rut",
+        "videos": [
+            {
+                "videoTitle": "Rutina en casa",
+                "videoURL": "https://www.youtube.com/embed/4CBgdHkmmdQ"
+            },
+            {
+                "videoTitle": "Rutina cardio",
+                "videoURL": "https://www.youtube.com/embed/iQ3g-gqKe_A"
+            }
+        ]
+    },
+    {
+        "sectionTitle": "Fútbol",
+        "id": "futbol",
+        "videos": [
+            {
+                "videoTitle": "Jugadas del fútbol (skills)",
+                "videoURL": "https://www.youtube.com/embed/w0CJgti_7n8"
+            },
+            {
+                "videoTitle": "Baloncesto",
+                "videoURL": "https://www.youtube.com/embed/S2sJSbZwwq4"
+            }
+        ]
+    },
+    {
+        "sectionTitle": "Baloncesto",
+        "id": "baloncesto",
+        "videos": [
+            {
+                "videoTitle": "Drible para principiantes",
+                "videoURL": "https://www.youtube.com/embed/pyBahhoU4EA"
+            },
+            {
+                "videoTitle": "Cómo driblar",
+                "videoURL": "https://www.youtube.com/embed/zuU_fw4TdK0"
+            },
+            {
+                "videoTitle": "Tipos de drible",
+                "videoURL": "https://www.youtube.com/embed/WObNwGZ6KDs"
+            }
+        ]
+    },
+    {
+        "sectionTitle": "Natación",
+        "id": "natacion",
+        "videos": [
+            {
+                "videoTitle": "Estilo libre",
+                "videoURL": "https://www.youtube.com/embed/u5ZWVginAXQ"
+            },
+            {
+                "videoTitle": "Estilo libre suave",
+                "videoURL": "https://www.youtube.com/embed/VQxykkE2t-g"
+            },
+            {
+                "videoTitle": "Estilo mariposa",
+                "videoURL": "https://www.youtube.com/embed/YlhXuC25_L4"
+            }
+        ]
+    }
+]

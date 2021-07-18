@@ -1,1 +1,377 @@
-/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-size: 16px;
+    
+}
+/**********************************************/
+/*                   HEADER                    /
+/**********************************************/
+a{
+    text-decoration: none;
+}
+.typewrite{
+    cursor:auto;
+    text-decoration:none;
+}
+.text-animation {
+    margin: 40px 0px;
+}
+.typewrite .wrap, .typewrite .wrap:hover {
+    font-size: 3rem;
+    margin: 0px 0px;
+    color:white;
+}
+/**********************************************/
+/*                     HOME                    /
+/**********************************************/
+.titles{
+    color:rgb(255, 146, 40);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.title-article{
+    text-align: end;
+    margin: 50px 0px 40px 0px;
+    font-size: 1.5rem;
+}
+.text-article, .text-article b {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+.modal-title{
+    color:rgb(255, 146, 40);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.row-content{
+    padding: 1.8rem 0;
+    margin: 0;
+}
+.row .row {
+    margin: 0;
+}
+.row-title{
+    padding: 0;
+    line-height: 1.8rem;
+}
+.article{
+    margin:0;
+}
+.article__item {
+    padding: 10px;
+}
+.article__item img{
+    border-radius: 10px;
+}
+.article__item-body{
+    background-color:rgb(255, 146, 40);
+    color: #FFF;
+}
+.article__item-body h5{
+    margin-bottom: 1.5rem;
+}
+.article .card{
+    background-color:rgb(255, 146, 40);
+    border-radius: 10px;
+}
+.accordion{
+    margin-top:50px;
+}
+.accordion-item .accordion-button{
+    font-size:1.2rem;
+    color:black;
+}
+.accordion-item .accordion-button:not(.collapsed),.accordion-button:hover{
+    background-color:rgb(255, 146, 40);
+    color: white;
+}
+.accordion-item .accordion-button:focus{
+    border-color:rgb(255, 146, 40) ;
+    box-shadow: 0 0 0 0.25rem rgba(255,146,40,.25);
+}
+div .btn-more {
+    background-color: rgb(255, 146, 40);
+    font-size: 1.2rem;
+    color: white;
+}
+div .btn-more:hover {
+    background-color: white;
+    font-size: 1.2rem;
+    border: 1px solid rgb(255, 146, 40);
+    color: rgb(255, 146, 40);
+}
+/**********************************************/
+/*                 PLAN AREA                   /
+/**********************************************/
+.pdf{
+    padding-left:5%;
+    width:95%;
+    height:1000px;
+}
+/**********************************************/
+/*             GUIAS Y ACTIVIDADES            /
+/**********************************************/
+.accordion{
+    margin-top:50px;
+}
+.accordion-grade{
+    margin-top:20px;
+}
+.accordion-item .accordion-button{
+    font-size:1.2rem;
+    color:black;
+}
+.accordion-item .accordion-button:not(.collapsed),.accordion-item .accordion-button:hover{
+    background-color:rgb(255, 146, 40);
+    color: white;
+}
+.accordion-item .accordion-button:focus{
+    border-color:rgb(255, 146, 40);
+    box-shadow: 0 0 0 0.25rem rgba(255,146,40,.25);
+}
+.accordion-item .accordion-collapse .btn-guias {
+    background-color: rgb(255, 174, 94);
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+}
+.accordion-item .accordion-collapse .btn-guias:hover {
+    background-color: white;
+    font-size: 1.2rem;
+    border: 1px solid rgb(255, 146, 40);
+    color: rgb(255, 146, 40);
+}
+.accordion-item .btn-accordion-guias{
+    border: 1px solid rgb(255, 146, 40);
+    font-weight: bold;
+    color: rgb(255, 146, 40);
+}
+.accordion-item .btn-guias:focus{
+    background-color: white;
+    color:rgb(255, 146, 40);
+    border-color:rgb(255, 146, 40);
+    box-shadow: 0 0 0 0.25rem rgba(255,146,40,.25);
+}
+/**********************************************/
+/*                  REGLAMENTO                 /
+/**********************************************/
+div a .btn-regla {
+    background-color: rgb(255, 146, 40);
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+}
+div a .btn-regla:hover {
+    background-color: white;
+    font-size: 1.2rem;
+    border: 1px solid rgb(255, 146, 40);
+    color: rgb(255, 146, 40);
+}
+div a .btn-regla:focus{
+    background-color: white;
+    color:rgb(255, 146, 40);
+    border-color:rgb(255, 146, 40);
+    box-shadow: 0 0 0 0.25rem rgba(255,146,40,.25);
+}
+/**********************************************/
+/*                BUTTON UP                    /
+/**********************************************/
+.button-up{
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    /* background-color:rgb(255, 146, 40); */
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius:50%;
+    font-size:20px;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    /* border: 3px solid white; */
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+.button-up:hover{
+    transform: scale(1.2);
+    border: 2px solid white;
+}
+/**********************************************/
+/*                  ANIMATIONS                 /
+/**********************************************/
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+  
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+  
+.fadeIn {
+    animation-name: fadeIn;
+}
+/**********************************************/
+/*                MEDIA QUERIES                /
+/**********************************************/
+@media(min-width:992px)and (max-width:1199px){
+    /* CONTENT */
+    .titles{
+        
+        font-size: 2.2rem;
+    }
+    .title-article{
+        margin: 40px 0px 40px 0px;
+        font-size: 1.4rem;
+    }
+    .text-article, .text-article b{
+        font-size: 1.1rem;
+    }
+    .pdf{
+        height:800px;
+    }
+}
+@media(min-width:768px)and (max-width:991px){
+    /* CONTENT */
+    .titles{
+        font-size: 2.2rem;
+    }
+    .title-article{
+        margin: 0px 0px 40px 0px;
+        font-size: 1.2rem;
+    }
+    .text-article, .text-article b{
+        
+        font-size: .95rem;
+    }
+    .pdf{
+        height:750px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    /* CONTENT */
+    .titles{
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    .title-article{
+        text-align: center;
+        margin:20px 0 20px 0;
+        font-size: 1.2rem;
+    }
+    .text-article, .text-article b{
+        padding:0;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .div-message .titles{
+        font-size: 2.8rem;
+    }
+    .accordion-item .accordion-button{
+        font-size:1rem;
+    }
+    .pdf{
+        height:700px;
+    }
+    .button-up{
+        right:30px;
+    }
+}
+@media(min-width:375px) and (max-width:575px){
+    /* CONTENT */
+    .titles{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .title-article{
+        text-align: center;
+        margin:20px 0 20px 0;
+        font-size: 1.2rem;
+    }
+    .text-article, .text-article b{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .div-message .titles{
+        font-size: 2.4rem;
+    }
+    .lead{
+        text-align: center;
+    }
+    .modal-title{
+        font-size: 1rem;
+    }
+    .typewrite .wrap{
+        font-size: 2.4rem;
+    }
+    .pdf{
+        height:650px;
+    }
+    .button-up{
+        right:20px;
+    }
+}
+@media(max-width:374px){
+    /* CONTENT */
+    .titles{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .title-article{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .text-article, .text-article b{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .div-message .titles{
+        font-size: 2rem;
+    }
+    .lead{
+        text-align: center;
+        font-size: .8rem;
+    }
+    .modal-title{
+        font-size: 1.2rem;
+    }
+    .typewrite .wrap{
+        font-size: 1.6rem;
+    } 
+    .videoRutina{
+        height: 200px;
+    }
+    .button-up{
+        width: 50px;
+        height: 50px;
+        right: 20px;
+    }
+    .pdf{
+        height:600px;
+    }
+}

@@ -1,0 +1,105 @@
+
+.form{
+    display:block;
+}
+.form .btn-more{
+    display:flex;
+    float:right;
+    margin :auto;
+}
+.form-label:hover{
+    cursor:pointer;
+}
+.form__input{
+    transition: .3s ease all;
+}
+.form__input:focus{
+    border: 3px solid rgb(255, 146, 40);
+    box-shadow: 3px 0px 30px rgba(163,163,163,.4);
+    outline: none;
+}
+.form__input-error{
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-left:80px;
+    display:none;
+}
+.form__input-error-active {
+    margin-bottom:10px;
+    display: block;
+}
+.form-label{
+    line-height: 40px;
+}
+.form__group-input{
+    position:relative;
+}
+.form__validation-state{
+    position:absolute;
+    right:20px;
+    top:12px;
+    z-index:100;
+    font-size:16px;
+    opacity:0;
+}
+.form__message{
+    height:45px;
+    line-height:45px;
+    background-color: #F66060; 
+    font-size: 16px;
+    border-radius: 5px;
+    margin:10px 0;
+    display:none;
+}
+.form__group-correct .form__validation-state{
+    color:#1ED122;
+    opacity:1;
+}
+.form__group-incorrect .form__validation-state{
+    color:#bb2929;
+    opacity:1;
+}
+.form__group-incorrect .form-label{
+    color:#bb2929;
+}
+.form__group-incorrect .form__input{
+    border:3px solid #bb2929;
+}
+.modal-backdrop{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#modal-validate{
+    display: none;
+}
+@media(max-width:992px){
+    .form-label{
+        line-height: 0px;
+        margin-top:20px
+    }
+    .form__input-error{
+        margin-bottom: 0;
+        margin-left:10px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .div-message .titles{
+        font-size: 2.8rem;
+    }
+}
+@media(min-width:375px) and (max-width:575px){
+    .div-message .titles{
+        font-size: 2.4rem;
+    }
+    .form__message p,.form__message i,.form__message b{
+        font-size:15px;
+    }
+}
+@media(max-width:374px){
+    .div-message .titles{
+        font-size: 2rem;
+    }
+    .form__message p,.form__message i,.form__message b{
+        font-size:10px;
+    }
+}
+

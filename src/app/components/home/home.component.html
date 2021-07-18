@@ -1,0 +1,308 @@
+<!-- WELCOME MESSAGE -->
+<section class="row row-content" data-aos="zoom-in">
+    <div class="col-12 div-message p-xs-1 mt-0 mt-md-3 mb-3 ml-0 mr-0 shadow rounded">
+        <h2 class="display-4 titles mb-4 animated fadeIn">Bienvenido!</h2>
+        <p class="text-article animated fadeIn">Sitio web del área de educación física, recreación y deporte de la
+            <b>Institución
+                Educativa Núcleo Escolar El Guadual</b> ubicada en el municipio de Rivera (Huila, Colombia). Aquí
+            encontrarás diferentes actividades, guías, rutinas y videos complementarios para el mantenimiento de la
+            actividad física en el hogar. Este contenido está diseñado para los estudiantes del plantel y la comunidad
+            en general.
+        </p>
+        <hr class="my-4">
+        <p class="text-article animated fadeIn">Para ver el último video sobre rutina de estiramiento dale click al
+            botón <b>Ir al
+                video</b>.</p>
+
+
+        <!-- Button trigger modal -->
+        <button id="btn-modal" type="button" class="btn btn-more" data-bs-toggle="modal" data-bs-target="#myModal">
+            Ir al video
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Video rutina estiramiento</h5>
+                        <button type="button" class="btn-close modal-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                            <iframe id="video" class="modal-close" src="" allowfullscreen allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<!--welcome message-->
+
+<!-- ARTICLES -->
+<section class="row row-content shadow">
+    <header class="row" data-aos="zoom-in" data-aos="zoom-in">
+        <h2 class="titles text-center mb-5">Acerca de la lúdica, el juego y la recreación</h2>
+    </header>
+    <div class="row row-cols-1 row-cols-lg-3 g-4 animated fadeIn" data-aos="zoom-in">
+        <div class="col article" *ngFor="let article of articles; let i=index">
+            <div class="card article__item h-100">
+                <img [src]="article.img" class="card-img-top" [alt]="article.title">
+                <div class="card-body article__item-body">
+                    <h5 class="card-title text-center">{{ article.title | uppercase }}</h5>
+                    <p class="text-article">{{ article.article }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--articles-->
+
+<!-- ABOUT OF TEACHER -->
+<section class="row row-content">
+    <header class="col-12 text-start" data-aos="zoom-in">
+        <h2 class="titles">Acerca del docente</h2>
+    </header>
+
+    <div class="col-12 shadow p-3 mt-5 mb-5 bg-white rounded" data-aos="zoom-in">
+
+        <div class="row">
+            <div class="offset-sm-2 offset-md-3 offset-lg-0 col-sm-8 col-md-6 col-lg-4">
+                <img src="../../../assets/img/home/coach.jpg" class="img-fluid" alt="Coach image">
+            </div>
+
+            <div class="col-md-12 col-lg-8">
+                <h3 class="title-article">Alvaro Velasquez Soto</h3>
+                <p class="text-article">Licenciado en educación física de la <b>Universidad Surcolombiana</b>,
+                    especialista en lúdica educativa de la Fundación Universitaria Juan de Castellanos, con estudios a
+                    nivel de maestría en educación y desarrollo comunitario, cuenta con más de <b>30 años de experiencia
+                        profesional</b>, hincha del atlético Huila y amante de la liga italiana (Calcio Italiano).
+                    Actualmente es profesor de tiempo completo en la institución educativa Núcleo Escolar El Guadual del
+                    municipio de Rivera (Huila, Colombia).</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--about of teacher-->
+
+<!-- ABOUT SCHOOL -->
+<section class="row row-content">
+    <header class="row" data-aos="zoom-in">
+        <div class="col-12 text-start">
+            <h2 class="titles">Acerca de la institución</h2>
+        </div>
+    </header>
+
+    <div class="row row-content pe-0" data-aos="fade-left">
+        <div class="accordion pe-0" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Introducción
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                            La institución educativa Núcleo Escolar El Guadual, fue legalizada bajo el acta
+                            administrativa según decreto No 0800 del 2003 de la gobernación del Huila, pero su creación
+                            o constitución data del año 1960. Recientemente cumplió 60 años de vida institucional. El 11
+                            de julio ha sido establecido como el día de su aniversario. Cuenta con el registro del DANE
+                            No 241615000075 y la identificación de la DIAN No. 813001664 – 4, está ubicada en la vereda
+                            de su mismo nombre, a tres kilómetros de la cabecera municipal de Rivera perteneciente al
+                            departamento del Huila. Cuenta con 13 sedes y la sede principal donde funciona el
+                            preescolar, básica primaria, básica secundaría y la media técnica como <b>Técnico en
+                                Explotación Agropecuaria Ecológica</b> y <b>Técnico en Mayordimía con énfasis en
+                                ganadería</b>, en integración con el SENA para ofrecer esta titulación. Ofrece otros
+                            servicios como programa SER en jornada sabatina y el internado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Visión
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                            La Institución Educativa Núcleo Escolar "El Guadual" de Rivera-Huila, espera para el año
+                            2021, ser una empresa generadora de líderes competentes en la gestión y aprovechamiento de
+                            recursos agropecuarios, explotando y explorando de manera equilibrada su medio ambiente,
+                            encontrando así en el sector turístico nuevas alternativas que les permita elevar su nivel
+                            de visión.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Misión
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                            Contribuir a la formación de personas en cualquier tipo de situación de forma íntegra, con
+                            identidad original, capacidad de liderazgo y espíritu investigativo en el campo
+                            agroambiental y turístico, para la solución de problemas en la búsqueda de una mejor
+                            convivencia social y con el medio ambiente, para un mayor desarrollo de la región.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--about school-->
+
+<!-- HYMNS -->
+<section class="row row-content">
+    <header class="row" data-aos="zoom-in">
+        <div class="col-12 text-start">
+            <h2 class="titles">HIMNOS</h2>
+        </div>
+    </header>
+
+    <div class="row row-content pe-0" data-aos="fade-left">
+        <div class="accordion pe-0" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingRivera">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRivera" aria-expanded="false" aria-controls="collapseRivera">
+                        Himno a Rivera
+                    </button>
+                </h2>
+                <div id="collapseRivera" class="accordion-collapse collapse" aria-labelledby="headingRivera"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="hymns">
+                            Entre dianas de alegres victorias<br>
+                            Cantaremos el himno triunfal<br>
+                            Somos libres es nuestra la gloria<br>
+                            Viva viva Rivera inmortal.<br>
+                            <br><br>
+                            Cual la aurora que esparce doquiera<br>
+                            Sus fulgores de bello arrebol<br>
+                            Coronada apareces Rivera<br>
+                            De las palmas los mayos y el sol.<br>
+                            <br><br>
+                            Los naranjos te rindan aromas<br>
+                            Y los campos purísimo tul;<br>
+                            Y te arrulla de amor la paloma<br>
+                            Y los cielos te cubren de azul.<br>
+                            <br><br>
+                            Patria amada de gozo embriagado<br>
+                            Te queremos hoy día bendecir<br>
+                            Agobiarte de triunfos y atados<br>
+                            A tu causa de gloria morir.<br>
+                            <br><br>
+                            Hoy que marcas un nuevo sendero<br>
+                            De esperanza de luz de acción<br>
+                            Te ofrecemos terruño hechicero<br>
+                            ​Nuestra pobre y humilde canción.​<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingHuila">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseHuila" aria-expanded="false" aria-controls="collapseHuila">
+                        Himno a Huila
+                    </button>
+                </h2>
+                <div id="collapseHuila" class="accordion-collapse collapse" aria-labelledby="headingHuila"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="hymns">
+                            Entre dianas de alegres victorias<br>
+                            Cantaremos el himno triunfal<br>
+                            Somos libres es nuestra la gloria<br>
+                            Viva viva Rivera inmortal.<br>
+                            <br><br>
+                            Cual la aurora que esparce doquiera<br>
+                            Sus fulgores de bello arrebol<br>
+                            Coronada apareces Rivera<br>
+                            De las palmas los mayos y el sol.<br>
+                            <br><br>
+                            Los naranjos te rindan aromas<br>
+                            Y los campos purísimo tul;<br>
+                            Y te arrulla de amor la paloma<br>
+                            Y los cielos te cubren de azul.<br>
+                            <br><br>
+                            Patria amada de gozo embriagado<br>
+                            Te queremos hoy día bendecir<br>
+                            Agobiarte de triunfos y atados<br>
+                            A tu causa de gloria morir.<br>
+                            <br><br>
+                            Hoy que marcas un nuevo sendero<br>
+                            De esperanza de luz de acción<br>
+                            Te ofrecemos terruño hechicero<br>
+                            ​Nuestra pobre y humilde canción.​<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingGuadual">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseGuadual" aria-expanded="false" aria-controls="collapseGuadual">
+                        Himno al Guadual
+                    </button>
+                </h2>
+                <div id="collapseGuadual" class="accordion-collapse collapse" aria-labelledby="headingGuadual"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="hymns">
+                            Entre dianas de alegres victorias<br>
+                            Cantaremos el himno triunfal<br>
+                            Somos libres es nuestra la gloria<br>
+                            Viva viva Rivera inmortal.<br>
+                            <br><br>
+                            Cual la aurora que esparce doquiera<br>
+                            Sus fulgores de bello arrebol<br>
+                            Coronada apareces Rivera<br>
+                            De las palmas los mayos y el sol.<br>
+                            <br><br>
+                            Los naranjos te rindan aromas<br>
+                            Y los campos purísimo tul;<br>
+                            Y te arrulla de amor la paloma<br>
+                            Y los cielos te cubren de azul.<br>
+                            <br><br>
+                            Patria amada de gozo embriagado<br>
+                            Te queremos hoy día bendecir<br>
+                            Agobiarte de triunfos y atados<br>
+                            A tu causa de gloria morir.<br>
+                            <br><br>
+                            Hoy que marcas un nuevo sendero<br>
+                            De esperanza de luz de acción<br>
+                            Te ofrecemos terruño hechicero<br>
+                            ​Nuestra pobre y humilde canción.​<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--hymns-->
+
+<!-- FORM -->
+<section class="row row-content" data-aos="zoom-in">
+    <app-form></app-form>
+</section>
+<!--Form-->
