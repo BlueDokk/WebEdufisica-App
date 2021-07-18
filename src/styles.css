@@ -48,6 +48,9 @@ a{
     font-weight: bold;
     font-size: 1.8rem;
 }
+.modal-backdrop{
+    display:none;
+}
 .row-content{
     padding: 1.8rem 0;
     margin: 0;
@@ -104,6 +107,10 @@ div .btn-more:hover {
     font-size: 1.2rem;
     border: 1px solid rgb(255, 146, 40);
     color: rgb(255, 146, 40);
+}
+
+.row{
+    padding:0,
 }
 /**********************************************/
 /*                 PLAN AREA                   /

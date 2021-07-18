@@ -30,7 +30,8 @@ import { FormComponent } from './components/form/form.component';
     ReglamentoComponent,
     VideosComponent,
     FooterComponent,
-    FormComponent
+    FormComponent,
+    
   ],
   imports: [
     BrowserModule,

@@ -1,34 +1,50 @@
+/**********************************************/
+/*               WELCOME MESSAGE               /
+/**********************************************/
+
 .div-message .btn-more {
-    background-color: rgb(255, 146, 40);
-    font-size: 1.2rem;
-    color: white;
+  background-color: rgb(255, 146, 40);
+  font-size: 1.2rem;
+  color: white;
 }
 .div-message .btn-more:hover {
-    background-color: white;
-    font-size: 1.2rem;
-    border: 1px solid rgb(255, 146, 40);
-    color: rgb(255, 146, 40);
+  background-color: white;
+  font-size: 1.2rem;
+  border: 1px solid rgb(255, 146, 40);
+  color: rgb(255, 146, 40);
 }
 .div-message {
-    background-color:white;
-    padding: 25px;
+  background-color: white;
+  padding: 25px;
 }
-.div-message .btn-more{
-    float:right;
+.div-message .btn-more {
+  float: right;
 }
-.div-message .titles{
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 2.8rem;
+.div-message .titles {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2.8rem;
 }
-.hymns{
-    text-align: center;
+@media (max-width: 992px) {
+  .div-message .btn-more {
+    display: flex;
+    margin: 0 auto;
+    float: none;
+  }
 }
-@media(max-width:992px){
-    
-    .div-message .btn-more{
-        display: flex;
-        margin: 0 auto;
-        float:none;
-    }
+/**********************************************/
+/*                    MODAL                    /
+/**********************************************/
+.modal {
+  z-index: 10;
+}
+.modal-video {
+  width: 100%;
+}
+
+/**********************************************/
+/*                    HYMNS                    /
+/**********************************************/
+.hymns {
+  text-align: center;
 }
