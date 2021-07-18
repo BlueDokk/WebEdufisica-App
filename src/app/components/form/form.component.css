@@ -31,6 +31,14 @@
 .form-label{
     line-height: 40px;
 }
+
+.form__text-area{
+    padding: 0 12px;
+}
+
+.row .form__group{
+    padding: 0;
+}
 .form__group-input{
     position:relative;
 }
