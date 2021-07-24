@@ -1,4 +1,3 @@
-import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -66,14 +65,16 @@ export class FormComponent implements OnInit {
     }
   }
 
-  validateForm(){
-  
-    var modalValidate = document.getElementById('modal-validate');
+  validateForm(e:any){
 
+    
+    var modalValidate = document.getElementById('modal-validate');
+    
     if (Object.keys(this.fields).length == 3) {
       if(modalValidate !== null){
         if ((this.fields.name && this.fields.lastname) && this.fields.email) {
-          modalValidate.style.display = 'block';
+          // modalValidate.style.display = 'block';
+          alert('Mensaje enviado satisfactoriamente.')
           setTimeout(()=>{window.location.reload();},1000)
           window.scrollTo(0, 0);
           return true;
@@ -86,8 +87,9 @@ export class FormComponent implements OnInit {
       alert("El mensaje no pudo ser enviado");
       return false;
     }
+    e.preventDefault();
   }
-
+  
   constructor() {}
 
   ngOnInit(): void {

@@ -1,5 +1,6 @@
+<!-- MODAL FORM -->
 <section>
-    <div id="modal-validate" class="modal-backdrop">
+    <div id="modal-validate" class="modal-backdrop" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="text-center pt-3">
@@ -80,5 +81,5 @@
         <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente.
         </p>
     </div>
-    <button (click)="validateForm()" class="btn btn-more" type="submit">Enviar</button>
+    <button (click)="validateForm($event)" class="btn btn-more" type="submit">Enviar</button>
 </form>
