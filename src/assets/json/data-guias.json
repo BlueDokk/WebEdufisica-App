@@ -5,8 +5,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/601.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEXTO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/601.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/SEXTO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -22,8 +28,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/602.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEXTO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/602.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/SEXTO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -39,8 +51,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/701.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEPTIMO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/701.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/SEPTIMO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -56,8 +74,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/702.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEPTIMO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/702.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/SEPTIMO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -73,8 +97,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/801.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/OCTAVO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/801.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/OCTAVO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -91,8 +121,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/802.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/OCTAVO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/802.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/OCTAVO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -111,8 +147,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/901.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/NOVENO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/901.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/NOVENO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -128,8 +170,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/902.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/NOVENO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/901.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/NOVENO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -145,8 +193,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/1001.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/DECIMO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/1001.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/DECIMO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -162,8 +216,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/1002.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/DECIMO.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/1002.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/DECIMO.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -179,8 +239,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/1101.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/ONCE.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/1101.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/ONCE.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
@@ -197,8 +263,14 @@
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
                 "planes": [
-                    "../../../assets/files/planes_mejoramiento/primer_periodo/1102.pdf",
-                    "../../../assets/files/planes_mejoramiento/segundo_periodo/ONCE.pdf"
+                    {
+                        "label": "Primer periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/primer_periodo/1102.pdf"
+                    },
+                    {
+                        "label": "Segundo periodo",
+                        "file":"../../../assets/files/planes_mejoramiento/segundo_periodo/ONCE.pdf"
+                    }
                 ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
