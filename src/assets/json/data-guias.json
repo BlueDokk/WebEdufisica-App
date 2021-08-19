@@ -4,7 +4,10 @@
             "grado": "601",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/601.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/601.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEXTO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/sexto/sesion2.pdf",
@@ -18,7 +21,10 @@
             "grado": "602",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/602.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/602.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEXTO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/sexto/sesion2.pdf",
@@ -32,7 +38,10 @@
             "grado": "701",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/701.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/701.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEPTIMO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/septimo/sesion2.pdf",
@@ -46,7 +55,10 @@
             "grado": "702",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/702.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/702.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/SEPTIMO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/septimo/sesion2.pdf",
@@ -60,7 +72,10 @@
             "grado": "801",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/801.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/801.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/OCTAVO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/octavo/sesion2.pdf",
@@ -75,7 +90,10 @@
             "grado": "802",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/802.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/802.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/OCTAVO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/octavo/sesion2.pdf",
@@ -92,7 +110,10 @@
             "grado": "901",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/901.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/901.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/NOVENO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/noveno/sesion2.pdf",
@@ -106,7 +127,10 @@
             "grado": "902",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/902.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/902.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/NOVENO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/noveno/sesion2.pdf",
@@ -120,7 +144,10 @@
             "grado": "1001",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/1001.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/1001.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/DECIMO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/decimo/sesion2.pdf",
@@ -134,7 +161,10 @@
             "grado": "1002",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/1002.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/1002.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/DECIMO.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/decimo/sesion2.pdf",
@@ -148,7 +178,10 @@
             "grado": "1101",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/1101.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/1101.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/ONCE.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/once/sesion2.pdf",
@@ -163,7 +196,10 @@
             "grado": "1102",
             "guias": {
                 "conductaEntrada": "../../../assets/files/guias/others/conducta.pdf",
-                "planMejoramiento": "../../../assets/files/planes_mejoramiento/primer_periodo/1102.pdf",
+                "planes": [
+                    "../../../assets/files/planes_mejoramiento/primer_periodo/1102.pdf",
+                    "../../../assets/files/planes_mejoramiento/segundo_periodo/ONCE.pdf"
+                ],
                 "sesiones": [
                     "../../../assets/files/guias/others/sesion1.pdf",
                     "../../../assets/files/guias/once/sesion2.pdf",

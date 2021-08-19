@@ -25,8 +25,9 @@
                                     <a [href]="grado.guias.conductaEntrada" target="blank">
                                         <button class="btn btn-guias mb-2">Conducta de entrada</button>
                                     </a>
-                                    <a [href]="grado.guias.planMejoramiento" target="blank">
-                                        <button class="btn btn-guias mb-2">Plan de mejoramiento</button>
+                                    <a *ngFor="let plan of grado.guias.planes; let i=index;"
+                                        id=plan-{{grado.grado}} [href]="plan" target="_blank">
+                                        <button class="btn btn-guias mb-2">Plan de mejoramiento - Periodo {{ i+1 }}</button>
                                     </a>
                                     <a *ngFor="let sesion of grado.guias.sesiones; let i=index;"
                                         id=sesion1-{{grado.grado}} [href]="sesion" target="_blank">
