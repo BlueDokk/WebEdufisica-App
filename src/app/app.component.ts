@@ -31,10 +31,17 @@ export class AppComponent implements OnInit {
 
   hideAll() {
     const allAccordions = document.querySelectorAll('.accordion-collapse');
+    const videosHymns = document.querySelectorAll('.video-hymn');
 
     for (let i = 0; i < allAccordions.length; i++) {
       $(allAccordions[i]).collapse('hide');
     }
+
+    for (let i = 0; i < videosHymns.length; i++) {
+      let videoUrl = $(videosHymns[i]).attr("src");
+      $(videosHymns[i]).attr("src","");
+      $(videosHymns[i]).attr("src",videoUrl);
+    } 
 
   }
 
